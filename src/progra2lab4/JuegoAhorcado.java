@@ -8,6 +8,7 @@ package progra2lab4;
  *
  * @author User
  */
-public class JuegoAhorcado {
-    
+public interface JuegoAhorcado {
+    void inicializarPalabraSecreta() throws Exception;
+    void jugar();
 }
